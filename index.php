@@ -37,6 +37,7 @@ if (get_device_type() == 'ios'){
 	<meta charset="utf-8">
 	<title>红圈营销</title>
 	<meta http-equiv="pragram" content="no-cache">
+        <meta content="user-scalable=0;" name="viewport" />
         <meta name="apple-itunes-app" content="app-id=967499300" />
 	<style>
 		body{
@@ -57,26 +58,7 @@ if (get_device_type() == 'ios'){
 </div>
       	<img src="<?php echo $devicetype;?>img/top.png" />
         <?php
-        $url = "";
         $url = "http://a.app.qq.com/o/simple.jsp?pkgname=com.hecom.sales";
-//        if ($devicetype == 'ios'){
-//            if ($iswx){
-////                $url = "itms-services://?action=download-manifest&url=https://v40.hecom.cn/plist/newBiaoZhun4.plist";
-//                $url = "itms-services://?action=download-manifest&url=https://v40.hecom.cn/plist/biaoZhun4Release.plist";
-//            }else{
-////                $url = "itms-services://?action=download-manifest&url=https://v40.hecom.cn/plist/newBiaoZhun4.plist";
-////                $url = "itms-services://?action=download-manifest&url=https://v40.hecom.cn/plist/biaoZhun4Release.plist";
-//                $url = "https://appsto.re/cn/K4TQ5";
-//            }
-//        }else{
-//            if ($iswx){
-////                $url = "http://a.app.qq.com/o/simple.jsp?pkgname=com.hecom.sales";
-//                $url = "http://a.app.qq.com/o/simple.jsp?pkgname=com.hecom.sales";
-//            }else{
-////                $url = "http://www.sosgps.com.cn/filemanage/android/4.3.0/tsclient.apk";
-//                $url = "http://www.sosgps.com.cn/filemanage/android/HecomClientRC.apk";
-//            }
-//        }
         ?>
         <a href="<?php echo $url;?>" target="_top">
 		<img src="<?php echo $devicetype;?>img/btn.png" />
